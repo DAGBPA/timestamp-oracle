@@ -1,0 +1,34 @@
+{
+  "name": "timestamp-oracle",
+  "description": "DAG Pizza timestamp oracle",
+  "author": "DAGBPA",
+  "version": "0.1.0",
+  "main": "start.js",
+  "keywords": [
+    "wallet",
+    "headless",
+    "dag",
+    "pizza",
+    "full node",
+    "timestamp",
+    "oracle"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/DAGBPA/timestamp-oracle.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/DAGBPA/timestamp-oracle/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "dag-pizza-dough": "git+https://github.com/DAGBPA/dag-pizza-dough.git",
+    "dag-pizza-headless": "git+https://github.com/DAGBPA/dag-pizza-headless.git",
+    "request": "^2.79.0"
+  }
+}

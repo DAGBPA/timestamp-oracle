@@ -1,0 +1,1 @@
+*/15 * * * * cd timestamp-oracle; node check_daemon.js 1>>~/.config/timestamp-oracle/check_daemon.log 2>>~/.config/timestamp-oracle/check_daemon.err
