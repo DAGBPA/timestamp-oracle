@@ -9,6 +9,7 @@ var desktopApp = require('dag-pizza-dough/desktop_app.js');
 var request = require('request');
 var async = require('async');
 
+headlessWallet.setupChatEventHandlers();
 
 function postTimestamp(address) {
 	var composer = require('dag-pizza-dough/composer.js');
